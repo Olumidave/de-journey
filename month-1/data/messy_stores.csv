@@ -1,0 +1,7 @@
+store_id,city,revenue,manager,date_opened,is_active
+101,Lagos,125000,Olumide David,2022-01-15,True
+102, abuja ,89000,amaka okonkwo,2022-03-20,True
+103,Kano,,Chidi Nwosu,2021-11-05,False
+104,Lagos,125000,Olumide David,2022-01-15,True
+105,IBADAN,-9999,Fatima Abdullahi,2023-07-10,True
+106,port harcourt,204000,,2021-08-30,

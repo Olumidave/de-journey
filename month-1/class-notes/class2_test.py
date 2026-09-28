@@ -14,3 +14,13 @@ for tool in tools:
     print(f"  ✓ {tool}")
 
 print("\nLet's get to work!")
+
+store_name = "Zenith Retail"
+number_of_branches = 50
+total_sales = 1250000.75
+is_open = True
+
+print(f"\nStore Name: {store_name}")
+print(f"Number of Branches: {number_of_branches}")
+print(f"Total Sales: ${total_sales:,.2f}")
+print(f"Is Open: {is_open}")
