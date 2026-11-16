@@ -19,6 +19,18 @@ print("Kano" in branches)    # False
 branches.sort()
 print(branches)  # ["Abuja", "Ibadan", "Lagos"]
 
+
+store = ["Aba", "Umuahia", "Port harcourt", "Owerri"]
+store.append("Enugu")
+print(store)
+
+store.remove("Umuahia")
+print(store)
+
+print("Owerri" in store)
+print(len(store))
+
+
 # Raw sales amounts coming from a database
 raw_sales = [15000, 8500, 0, 42000, -500, 91000, 0, 7800]
 

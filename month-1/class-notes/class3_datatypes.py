@@ -15,6 +15,59 @@ average_order_value = revenue / total_orders  # Python calculates this
 raw_customer_count = "1500"            # string - came in wrong type!
 clean_customer_count = int(raw_customer_count)  # fixed!
 
+print("=" * 30)
+print("Zenith Retail Summary")
+print("=" * 30)
+print(f"Store Name: {store_name}")
+print(f"Store id: {store_id}")
+print(f"Is Active: {is_active}")
+print(f"Total Orders: {total_orders}")
+print(f"Revenue: {revenue:,.2f}")
+print(f"Average Order Value: {average_order_value:,.2f}")
+print(f"Customers: {clean_customer_count}")
+print("=" * 30)
+
+
+
+
+print("\nZenith Retail Datatypes")
+print(f"store Name is: {type(store_name)}")
+print(f"store id is: {type(store_id)}")
+print(f"is active is: {type(is_active)}")
+print(f"total orders is: {type(total_orders)}")
+print(f"revenue is: {type(revenue)}")
+print(f"average order value is: {type(average_order_value)}")
+print(f"customer today is: {type(clean_customer_count)}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Display a simple report
 print("=" * 40)
 print("ZENITH RETAIL - DAILY SUMMARY")

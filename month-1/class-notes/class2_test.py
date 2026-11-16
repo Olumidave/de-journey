@@ -9,9 +9,9 @@ print("Today I set up my DE environment")
 # Let's do a tiny bit of Python too
 tools = ["Python", "VS Code", "Git", "PostgreSQL", "DBeaver"]
 
-print("\nTools I installed today:")
-for tool in tools:
-    print(f"  ✓ {tool}")
+print("\nSoftware I installed today:")
+for software in tools:
+    print(f"  ✓ {software}")
 
 print("\nLet's get to work!")
 
@@ -24,3 +24,7 @@ print(f"\nStore Name: {store_name}")
 print(f"Number of Branches: {number_of_branches}")
 print(f"Total Sales: ${total_sales:,.2f}")
 print(f"Is Open: {is_open}")
+
+print(f"\nStore Name: {store_name}")
+print(f"Number of Branches: {number_of_branches}")
+print(f"Total Sales: {total_sales:,.2f}")

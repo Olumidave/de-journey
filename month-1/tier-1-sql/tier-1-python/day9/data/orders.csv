@@ -1,0 +1,8 @@
+order_id,customer,product,quantity,unit_price,city,order_date,status
+2001,olumide david,samsung tv,2,380000,lagos,2024-03-01,paid
+2002,AMAKA okonkwo,iPhone 15,1,"₦890,000",Abuja,2024-03-02,PAID
+2003,chidi nwosu,Laptop Dell,1,450000,KANO,03/03/2024,Paid
+2004,Fatima Ali,wireless mouse,3,N/A,Lagos,2024-03-04,pending
+2005,Emeka Obi,MacBook Pro,1,"1,200,000",ph,2024-03-05,Paid
+2006,Ngozi Eze,phone case,2,2500,enugu,2024-03-06,paid
+2007,,keyboard,1,12000,Lagos,2024-03-07,Paid

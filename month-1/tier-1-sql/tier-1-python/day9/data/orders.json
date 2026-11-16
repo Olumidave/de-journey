@@ -1,0 +1,25 @@
+[
+  {
+    "order_id": 3001,
+    "customer": {"name": "Olumide David", "city": "Lagos"},
+    "items": [
+      {"product": "Samsung TV", "quantity": 1, "unit_price": 380000},
+      {"product": "Wireless Mouse", "quantity": 2, "unit_price": 8500}
+    ],
+    "paid": true
+  },
+  {
+    "order_id": 3002,
+    "customer": {"name": "Amaka Okonkwo", "city": "Abuja"},
+    "items": [
+      {"product": "iPhone 15", "quantity": 1, "unit_price": 890000}
+    ],
+    "paid": false
+  },
+  {
+    "order_id": 3003,
+    "customer": {"name": "Chidi Nwosu"},
+    "items": [],
+    "paid": true
+  }
+]

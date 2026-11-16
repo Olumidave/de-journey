@@ -27,6 +27,77 @@ def apply_discount(price, discount_rate = 0.10):
     discounted_price = price - discount_amount
     return discounted_price
 
+
+
+
+def calculate_final_price(price, tax_rate = 0.02):
+    tax = price * tax_rate
+    final_price = price + tax
+    return final_price
+
+def cleaned_customer_name(raw_name):
+    name = raw_name.strip()
+    name = name.title()
+    return name
+
+def category(amount):
+    if amount < 5000:
+        return "Small Sale"
+    elif amount < 50000:
+        return "Medium Sale"
+    else:
+        return "High Sale"
+
+
+def apply_discount(price, discount_rate = 0.10):
+    discount_amount = price * discount_rate
+    discounted_price = price - discount_amount
+    return discounted_price
+
+
+print("=" * 40)
+print("Zenith Retail: Product Processing Pipeline")
+print("=" * 40)
+
+total_revenue = 0
+
+for product in products:
+    clean_name = cleaned_customer_name(product["name"])
+    final_price = calculate_final_price(product["price"])
+    category = category(product["price"])
+    discounted_price = apply_discount(product["price"])  # Applying a 10% discount
+    total_revenue += final_price
+
+print(f"\nproduct:  {clean_name}")
+print(f"Base_price:  {product['price']}")
+print(f"Category:  {category}")
+print(f"final_price: {final_price:,.2f}")
+print(f"discount_price:  {discounted_price:,.2f}")
+print(f"product:  {clean_name}")
+
+
+print("\n" + "=" * 50)
+print(f"Total Revenue: {total_revenue}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # ---- DATA ----
 
 products = [

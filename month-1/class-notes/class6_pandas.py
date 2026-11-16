@@ -44,7 +44,7 @@ df = pd.read_csv("month-1/data/stores.csv")
 
 print(df["city"])
 print(df[["city", "revenue"]])
-
+print(df["city"])
 
 import pandas as pd
 
@@ -62,6 +62,9 @@ print(high_revenue)
 top_stores = df[(df["is_active"] == True) & (df["revenue"] > 100000)]
 print(top_stores)
 
+
+
+high_stores = df[(df["is_active"] == True) & (df["revenue"] > 100000)]
 
 
 import pandas as pd

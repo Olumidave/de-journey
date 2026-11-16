@@ -25,6 +25,8 @@ for store in stores:
     }
     cleaned_stores.append(cleaned)
 
+
+
 print(f"Cleaned {len(cleaned_stores)} records")
 
 # ---- STEP 3: ANALYZE ----
